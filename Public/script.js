@@ -49,6 +49,7 @@ saveButton.addEventListener('click',async ()=>{
         const errEl = document.getElementById('errorMessageId')
         errEl.textContent="PLEASE WRITE YOUR NOTE PLEASE "
     }else{
+         recent.style.display='block'
         const errEl = document.getElementById('errorMessageId')
         errEl.textContent=""
         recent.removeChild(recentnoteblock)
