@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgb(136, 178, 164);
+    padding-left: 20px;
+}
+.container{
+    background-color: rgb(136, 178, 164);
+    width: 100vw;
+    height: auto;
+    
+}
+h2{
+    font-family:sans-serif;
+    color: rgb(240, 240, 246);
+    stroke: beige;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 50PX;
+}
+.formContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 80px;
+    height:30px;
+    margin:8px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    background-color: rgb(241, 238, 245);
+
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    resize: none;
+}
+.note{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border:1px solid ;
+    border-radius: 5px;
+    
+}
+.recentNote{
+    padding: 20px;
+    width:auto;
+    height: 50px;
+    overflow-y: scroll;
+    overflow: auto;
+}
+.error-message{
+    color: red;
+    font-size:15px;
+    font-weight: bold;
+}
+.noteEl{
+    background-color: rgb(168, 121, 212);
+    width: 60%;
+    max-height:max-content;
+    overflow-y:scroll;
+    color: white;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+p{
+    font-size: 15px;
+}
